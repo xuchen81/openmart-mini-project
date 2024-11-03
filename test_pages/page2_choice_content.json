@@ -1,0 +1,101 @@
+{
+    "list_node_selector": ".S",
+    "pagination_node_selector": "#dx",
+    "data_points": [
+        [
+            {
+                "key": "job_title",
+                "value": "Cook",
+                "detail_page_url": "https://jobs.apploi.com/view/823630?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.903921",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "Dialysis RN",
+                "detail_page_url": "https://jobs.apploi.com/view/842527?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.904001",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "Physical Therapist",
+                "detail_page_url": "https://jobs.apploi.com/view/1395124?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.9040554",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "Dialysis Nurse Per Diem",
+                "detail_page_url": "https://jobs.apploi.com/view/1394404?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.904104",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "Dialysis Nurse New Grads Welcome",
+                "detail_page_url": "https://jobs.apploi.com/view/1394395?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.9041533",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "LPN 11-7 Shift",
+                "detail_page_url": "https://jobs.apploi.com/view/1391648?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.9042025",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "RN 11-7 Shift",
+                "detail_page_url": "https://jobs.apploi.com/view/1391647?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.9042504",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "Social Worker",
+                "detail_page_url": "https://jobs.apploi.com/view/823623?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.9043493",
+                "css_selector": "a.cQ"
+            },
+            {
+                "key": "job_title",
+                "value": "Registered Dietitian",
+                "detail_page_url": "https://jobs.apploi.com/view/1389733?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.904398",
+                "css_selector": "a.cQ"
+            }
+        ]
+    ],
+    "potential_next_page_url": "2",
+    "potential_next_page_load_btn_selector": "#dx .cr",
+    "pagination": [
+        {
+            "number": "1",
+            "css_selector": "#dx a:nth-child(2)",
+            "url": "#"
+        },
+        {
+            "number": "2",
+            "css_selector": "#dx a:nth-child(3)",
+            "url": "#"
+        },
+        {
+            "number": "3",
+            "css_selector": "#dx a:nth-child(4)",
+            "url": "#"
+        },
+        {
+            "number": "4",
+            "css_selector": "#dx a:nth-child(5)",
+            "url": "#"
+        },
+        {
+            "number": "5",
+            "css_selector": "#dx a:nth-child(6)",
+            "url": "#"
+        },
+        {
+            "number": "6",
+            "css_selector": "#dx a:nth-child(7)",
+            "url": "#"
+        },
+        {
+            "number": "13",
+            "css_selector": "#dx a:nth-child(8)",
+            "url": "#"
+        }
+    ]
+}

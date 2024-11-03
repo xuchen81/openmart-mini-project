@@ -1,0 +1,30 @@
+{
+    "id": "chatcmpl-APTYCeEXBQNnBs0ti9zVgFqfINwMa",
+    "choices": [
+      {
+        "finish_reason": "stop",
+        "index": 0,
+        "logprobs": null,
+        "message": {
+          "content": "{\n    \"list_node_selector\": \".S\",\n    \"pagination_node_selector\": \"#dx\",\n    \"data_points\": [\n        [\n            {\n                \"key\": \"job_title\",\n                \"value\": \"Cook\",\n                \"detail_page_url\": \"https://jobs.apploi.com/view/823630?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.903921\",\n                \"css_selector\": \".bQ > a\"\n            },\n            {\n                \"key\": \"job_title\",\n                \"value\": \"Dialysis RN\",\n                \"detail_page_url\": \"https://jobs.apploi.com/view/842527?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.904001\",\n                \"css_selector\": \".bQ > a\"\n            },\n            {\n                \"key\": \"job_title\",\n                \"value\": \"Physical Therapist\",\n                \"detail_page_url\": \"https://jobs.apploi.com/view/1395124?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.9040554\",\n                \"css_selector\": \".bQ > a\"\n            },\n            {\n                \"key\": \"job_title\",\n                \"value\": \"Dialysis Nurse Per Diem\",\n                \"detail_page_url\": \"https://jobs.apploi.com/view/1394404?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.904104\",\n                \"css_selector\": \".bQ > a\"\n            },\n            {\n                \"key\": \"job_title\",\n                \"value\": \"Registered Dietitian\",\n                \"detail_page_url\": \"https://jobs.apploi.com/view/1389733?utm_campaign=jobs_snippet&utm_source=alaris-career-page&utm_medium=client-web-site&utm_term=apploi-snippet&_=1730168492.904398\",\n                \"css_selector\": \".bQ > a\"\n            }\n        ]\n    ],\n    \"potential_next_page_url\": null,\n    \"potential_next_page_load_btn_selector\": null,\n    \"pagination\": [\n        {\n            \"number\": \"1\",\n            \"css_selector\": \"#dx > a.cr\",\n            \"url\": null\n        },\n        {\n            \"number\": \"2\",\n            \"css_selector\": \"#dx > a:nth-child(2)\",\n            \"url\": null\n        },\n        {\n            \"number\": \"3\",\n            \"css_selector\": \"#dx > a:nth-child(3)\",\n            \"url\": null\n        },\n        {\n            \"number\": \"4\",\n            \"css_selector\": \"#dx > a:nth-child(4)\",\n            \"url\": null\n        },\n        {\n            \"number\": \"5\",\n            \"css_selector\": \"#dx > a:nth-child(5)\",\n            \"url\": null\n        },\n        {\n            \"number\": \"6\",\n            \"css_selector\": \"#dx > a:nth-child(6)\",\n            \"url\": null\n        }\n    ]\n}",
+          "refusal": null,
+          "role": "assistant"
+        }
+      }
+    ],
+    "created": 1730635156,
+    "model": "gpt-4o-mini-2024-07-18",
+    "object": "chat.completion",
+    "system_fingerprint": "fp_9b78b61c52",
+    "usage": {
+      "completion_tokens": 681,
+      "prompt_tokens": 24910,
+      "total_tokens": 25591,
+      "completion_tokens_details": {
+        "reasoning_tokens": 0
+      },
+      "prompt_tokens_details": {
+        "cached_tokens": 24704
+      }
+    }
+  }

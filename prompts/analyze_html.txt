@@ -1,0 +1,51 @@
+here is a html page, with the following data point to
+extract:
+job title
+
+the html page looks liek the following:
+{{ html_content }}
+
+please do two things:
+1. identify the directory list node css selector
+2. extract the listed data point from the page
+  - job title
+  - job description
+3. for each data point, try to figure out there are embed detail page for that entry, you will consider:
+  - if all the data points can be found
+  - if there are nested page url embeded in the parrent node, some common url patterns could be: example.com/detail/<id>, example.com/info/<id>, etc
+4. detect pagination on the page, follow the following rules:
+```
+  there are 2 types of pagination
+  type1: different page; for example 1, 2, 3 ...
+  type2: infinite scrolling,
+
+  For type 1:
+    - check for anchor (<a>) tags that indicate different pages
+    - Classes or IDs: Look for terms relate to pagination: for example, "pagination", "page_number", "page_links"
+  For type 2:
+    - look for special key words like "load more", "load more data"
+```
+and generate the following json response:
+{
+    "list_node_selector": "",
+    "pagination_node_selector": "",
+    "data_points": [
+        [{"key": "job_title", "value": <value>, "detail_page_url": <value>, "css_selector": <value>},
+        {"key": "job_description", "value": <value>, "detail_page_url": <value>, "css_selector": <value>},...],...
+    ],
+    "potential_next_page_url": <value>,
+    "potential_next_page_load_btn_selector": <value>,
+    "pagination": [
+       {
+           "number": "1",
+           "css_selector": <value>,
+           "url": <value>
+       },
+       {
+           "number": "2",
+           "css_selector": <value>,
+           "url": <value>
+       },
+       ...
+   ]
+}
